@@ -1,4 +1,4 @@
-package com.netcracker.chNine.programmingProjects;
+package com.netcracker.chNine.programmingProjects.exOne;
 
 public class Main {
 
@@ -28,7 +28,7 @@ public class Main {
         System.out.println(queen.canMoveTo());
 
         King king = new King();
-        king.setPosition("e4");
+        king.setPosition("f5");
         System.out.println(king.canMoveTo());
 
     }

@@ -1,4 +1,4 @@
-package com.netcracker.chNine.programmingProjects;
+package com.netcracker.chNine.programmingProjects.exOne;
 
 /*Implement a class ChessPiece with method setifaPosition(String coordinates). The coordinate string identifies the row and column in chess notation, such as "d8" for the initial position of the black queen. Also provide a method ArrayList<String> can Move To()
 that enumerates the valid moves from the current position. Provide subclasses Pawn,

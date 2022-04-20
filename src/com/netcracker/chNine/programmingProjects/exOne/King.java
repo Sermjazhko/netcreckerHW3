@@ -1,4 +1,4 @@
-package com.netcracker.chNine.programmingProjects;
+package com.netcracker.chNine.programmingProjects.exOne;
 
 import java.util.ArrayList;
 
@@ -13,45 +13,46 @@ public class King extends ChessPiece{
         int i = indexCol+1;
         int j = indexRow+1;
         // верх право
-        if (flag && i<8 && j<8 ) {
+        if (flag && i<8 && j<8 )
             validMoves.add(colum.substring(i, i + 1) + row.substring(j, j + 1));
-            i--;
-        }
+
+        i--;
         // верх
-        if (flag && j<8) {
+        if (flag && j<8)
             validMoves.add(colum.substring(i, i + 1) + row.substring(j, j + 1));
-            i--;
-        }
+
+        i--;
         // верх лево
-        if (flag && j<8 && i>-1) {
+        if (flag && j<8 && i>-1)
             validMoves.add(colum.substring(i, i + 1) + row.substring(j, j + 1));
-            j--;
-        }
+
+        j--;
         // лево
-        if (flag && i>-1) {
+        if (flag && i>-1)
             validMoves.add(colum.substring(i, i + 1) + row.substring(j, j + 1));
-            j--;
-        }
+
+        j--;
         // низ лево
-        if (flag && j>-1 && i>-1) {
+        if (flag && j>-1 && i>-1)
             validMoves.add(colum.substring(i, i + 1) + row.substring(j, j + 1));
-            i++;
-        }
+
+        i++;
         // низ
-        if (flag && j>-1) {
+        if (flag && j>-1)
             validMoves.add(colum.substring(i, i + 1) + row.substring(j, j + 1));
-            i++;
-        }
+
+        i++;
         // низ право
-        if (flag && j>-1 && i<8) {
+        if (flag && j>-1 && i<8)
             validMoves.add(colum.substring(i, i + 1) + row.substring(j, j + 1));
-            j++;
-        }
+
+        j++;
         // право
-        if (flag && i<8) {
+        if (flag && i<8)
             validMoves.add(colum.substring(i, i + 1) + row.substring(j, j + 1));
             j++;
-        }
+
+        j++;
         return validMoves;
     }
 }

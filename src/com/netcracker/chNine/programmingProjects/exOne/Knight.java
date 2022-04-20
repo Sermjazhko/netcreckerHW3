@@ -1,4 +1,4 @@
-package com.netcracker.chNine.programmingProjects;
+package com.netcracker.chNine.programmingProjects.exOne;
 
 import java.util.ArrayList;
 
