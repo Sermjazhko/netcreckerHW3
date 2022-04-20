@@ -1,4 +1,4 @@
-package com.netcracker.chNine;
+package com.netcracker.chNine.workedExample;
 
 public class HourlyEmployee extends Employee{
 
