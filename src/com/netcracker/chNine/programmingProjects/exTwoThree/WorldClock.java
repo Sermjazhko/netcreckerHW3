@@ -11,11 +11,6 @@ public class WorldClock extends Clock{
         return Integer.toString(time.getHour());
     }
 
-    @Override
-    public String getTime() {
-        if (alarm.isBefore(time))
-            return getHours() + ":" + super.getMinutes() + "\u23F0";
-        return getHours() +":"+ super.getMinutes();
-    }
+
 
 }
