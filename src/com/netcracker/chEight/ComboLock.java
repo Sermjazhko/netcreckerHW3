@@ -48,8 +48,6 @@ public class ComboLock {
     }
 
     public boolean open(){
-        if (flag || (number!= 3) || (open!= 3))
-            return false;
-        return true;
+        return !(flag || (number!= 3) || (open!= 3));
     }
 }
